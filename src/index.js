@@ -4,14 +4,9 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-const meetList = [
-  {id: 1, name: "Penn State", date: "January"},
-  {id: 2, name: "UPenn", date: "Febuary"}
-]
-
 ReactDOM.render(
   <React.StrictMode>
-    <App meets={meetList}/>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
