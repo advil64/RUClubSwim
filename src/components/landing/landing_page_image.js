@@ -27,7 +27,7 @@ const constStyle = {
 
 const pStyle = {
     fontSize: '1.25rem',
-    fontFamily: 'Balsamiq Sans, cursive',
+    fontFamily: 'Balsamiq Sans',
 }
 
 const landingPage = () => {
