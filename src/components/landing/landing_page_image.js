@@ -39,7 +39,7 @@ const landingPage = () => {
                     <h1>Rutgers Club Swim Team</h1>
                     <p style={pStyle}>
                     The Rutgers Club Swim Team is a competitive coed team that swims against other college club swim teams all along the East Coast.  The team gives Rutgers students an opportunity to continue their swimming careers at a competitive level that does not have as much of a time commitment as a varsity sport.  In wake of cutting the varsity men's swimming team, the club team continues to carry on the legacy of strong men's (as well as women's) swimming in New Jersey. 
-   Swimmers of all abilities are encouraged to join.
+   Swimmers of all abilities are encouraged to join. Email: ruclubswim@gmail.com
                     </p>
                 </Container>
             </Jumbotron>
