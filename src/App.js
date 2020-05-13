@@ -21,7 +21,7 @@ class App extends Component {
           {/* <Switch>
             <Route exact path='/' component={Dashboard}/>
             <Route path='/project/:id' component={ProjectDetails} />
-          </Switch> */}
+          </Switch> */} 
         </div>
       </BrowserRouter>
     );
