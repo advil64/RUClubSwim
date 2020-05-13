@@ -1,20 +1,25 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import Navbar from 'react-bootstrap/Navbar'
 import SignedInLinks from './SignedInLinks'
+import logo from '../../images/logo.png'
 // import SignedOutLinks from './SignedOutLinks'
 
-const Navbar = () => {
+const Navigation = () => {
     return (
-        <nav className="nav-wrapper red darken-1">
-            <div className="container left-align">
-                <Link to='/' className="brand-logo">
-                    Rutgers Club Swimming
-                </Link>
-                {/* <SignedOutLinks /> */}
+        <Navbar bg="dark" variant="dark" className="fixed-top navbar-expand-sm">
+            <Navbar.Brand href="/" fixed="top">
+                <img
+                    alt="Rutgers Club Swimming"
+                    src={logo}
+                    width="30"
+                    height="30"
+                    className="d-inline-block align-top"
+                />{' '}
+                Rutgers Club Swimming
+                </Navbar.Brand>
                 <SignedInLinks />
-            </div>
-        </nav>
+        </Navbar>
     )
 }
 
-export default Navbar;
+export default Navigation;

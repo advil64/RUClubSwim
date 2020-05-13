@@ -1,14 +1,28 @@
 import React from 'react'
-import {NavLink} from 'react-router-dom'
+import Nav from 'react-bootstrap/Nav'
+
+var Scroll = require('react-scroll');
+var scroller = Scroll.scroller;
 
 const SignedInLinks = () => {
     return (
-        <ul className="right">
-            <li><NavLink to='/'>Announcements</NavLink></li>
-            <li><NavLink to='/'>Upcoming Meets</NavLink></li>
-            <li><NavLink to='/'>Our Twitter Feed</NavLink></li>
-            <li><NavLink to='/' className='btn btn-floating pink lighten-1'>AC</NavLink></li>
-        </ul>
+        <Nav className="mr-auto">
+            <Nav.Link onClick={() => scroller.scrollTo('info', {
+                smooth: true,
+                offset: -55,
+                duration: 500,
+            })}>Information</Nav.Link>
+            <Nav.Link onClick={() => scroller.scrollTo('instr', {
+                smooth: true,
+                offset: -55,
+                duration: 500,
+            })}>New Swimmers</Nav.Link>
+            <Nav.Link onClick={() => scroller.scrollTo('soc', {
+                smooth: true,
+                offset: -55,
+                duration: 500,
+            })}>Social Media</Nav.Link>
+            </Nav>
     )
 }
 
