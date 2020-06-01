@@ -1,2 +1,2 @@
 ## Rutgers Club Swimming
-Welcome to the new home of Rutgers club swimming, this website is currently a work in progress but will hopefully be up by the fall semester!
+Welcome to the new home of Rutgers club swimming, this website is basically finished but looking for suggestions to add/improve thw website to make the club more approachable for new members.
