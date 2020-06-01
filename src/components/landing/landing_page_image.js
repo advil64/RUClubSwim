@@ -17,8 +17,8 @@ const jumboStyle = {
   };
 
 const constStyle = {
-    background: 'rgba(204, 204, 204, 0.8)',
-    marginTop: '15%',
+    background: 'rgba(68, 68, 68, 0.9)',
+    marginTop: '50px',
     position: 'center',
     width: '80%',
     borderRadius: '10px',
@@ -26,8 +26,7 @@ const constStyle = {
   };
 
 const pStyle = {
-    fontSize: '1.25rem',
-    fontFamily: 'Balsamiq Sans',
+    fontSize: '1.5rem',
 }
 
 const landingPage = () => {
@@ -43,7 +42,7 @@ const landingPage = () => {
                     </p>
                 </Container>
             </Jumbotron>
-        </div>
+        </div> 
     )
 }
 

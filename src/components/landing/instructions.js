@@ -12,7 +12,6 @@ const divStyle = {
     backgroundImage: 'url(' + picture + ')',
     backgroundPosition: 'center',
     backgroundSize: 'cover',
-    height: '75vh',
   };
 
   const jumboStyle = {

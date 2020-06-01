@@ -24,10 +24,10 @@ const Info = () => {
 
     return (
         <Element name="info">
-        <Container fluid id="info">
+        <Container fluid id="info" className="pr-0 mr-0 pt-2">
             <Row>
                 <Col className="colum">
-                    <Jumbotron fluid className="jumbotr bg-light">
+                    
                         <h2>Practice Schedule</h2>
                         <Table responsive>
                             <thead>
@@ -44,9 +44,9 @@ const Info = () => {
                                 <TableVal day="Thursday" officer="Someone & Someone"/>
                             </tbody>
                         </Table>
-                    </Jumbotron>
+
                 </Col>
-                <Col className="colum">
+                <Col>
                 <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3032.9966840200914!2d-74.46307228460093!3d40.519564379353326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3c70b5757be8d%3A0x4a73ed726e1ec667!2sSonny%20Werblin%20Recreation%20Center!5e0!3m2!1sen!2sus!4v1589341556290!5m2!1sen!2sus" 
                     width="100%" 
                     height="100%" 

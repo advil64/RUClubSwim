@@ -7,6 +7,7 @@ import LandingPage from './components/landing/landing_page_image'
 import Info from './components/landing/information'
 import Instructions from './components/landing/instructions'
 import SocialFeed from './components/landing/social'
+import './css/bootstrap.css';
 
 class App extends Component {
   render() {

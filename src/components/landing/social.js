@@ -8,14 +8,11 @@ import InstagramEmbed from 'react-instagram-embed'
 var Scroll = require('react-scroll');
 var Element = Scroll.Element;
 
-const divStyle = {
-    padding: '30px',
-  };
-
 const social = () => {
     return (
+        <div>
         <Element name="soc">
-        <Container fluid style={divStyle} className="bg-light" id="social">
+        <Container fluid className="pt-2" id="social">
             <Row>
                 <Col>
                 <TwitterTimelineEmbed
@@ -41,6 +38,7 @@ const social = () => {
             </Row>
         </Container>
         </Element>
+        </div>
     )
 }
 

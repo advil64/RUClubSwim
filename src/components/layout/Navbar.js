@@ -6,7 +6,7 @@ import logo from '../../images/logo.png'
 
 const Navigation = () => {
     return (
-        <Navbar bg="dark" variant="dark" className="fixed-top navbar-expand-sm">
+        <Navbar bg="secondary" variant="dark"  expand="lg" className="fixed-top">
             <Navbar.Brand href="/" fixed="top">
                 <img
                     alt="Rutgers Club Swimming"
@@ -17,7 +17,10 @@ const Navigation = () => {
                 />{' '}
                 Rutgers Club Swimming
                 </Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
                 <SignedInLinks />
+                </Navbar.Collapse>
         </Navbar>
     )
 }
