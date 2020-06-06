@@ -19,10 +19,6 @@ class App extends Component {
           <Info />
           <Instructions />
           <SocialFeed />
-          {/* <Switch>
-            <Route exact path='/' component={Dashboard}/>
-            <Route path='/project/:id' component={ProjectDetails} />
-          </Switch> */} 
         </div>
       </BrowserRouter>
     );
