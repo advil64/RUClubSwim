@@ -9,7 +9,6 @@ var Scroll = require("react-scroll");
 var Element = Scroll.Element;
 
 function TableVal(props) {
-  console.log(props);
   return (
     <tr>
       <td>{props.day}</td>

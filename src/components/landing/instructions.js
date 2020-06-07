@@ -22,7 +22,6 @@ function Links(props) {
 }
 
 function CardBody(props) {
-  console.log(props);
   return (
     <Card>
       <Card.Body>
