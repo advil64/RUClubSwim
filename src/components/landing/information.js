@@ -26,6 +26,7 @@ const Info = () => {
           <Row className="pr-0 mr-0">
             <Container className="text-center">
               <h2>Practice Schedule</h2>
+              <p>Times and location subject to change. Email us to stay updated.</p>
             </Container>
             <Table responsive>
               <thead>
