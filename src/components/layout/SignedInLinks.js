@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from 'react-bootstrap/Nav'
+import { BoxArrowUpRight } from 'react-bootstrap-icons';
 
 var Scroll = require('react-scroll');
 var scroller = Scroll.scroller;
@@ -27,6 +28,15 @@ const SignedInLinks = () => {
                 offset: -70,
                 duration: 500,
             })}>Social Media</Nav.Link>
+            <Nav.Link onClick={() => window.open("http://recreation.rutgers.edu", "_blank")}>
+                Rutgers Rec <BoxArrowUpRight/>
+            </Nav.Link>
+            <Nav.Link onClick={() => window.open("https://rutgers.campuslabs.com/engage/organization/SwimClub", "_blank")}>
+                GetInvolved <BoxArrowUpRight/>
+            </Nav.Link>
+            <Nav.Link onClick={() => window.open("https://rutgers.campusgroups.com/feeds?type=club&type_id=43784&tab=about", "_blank")}>
+                Involvement Fair <BoxArrowUpRight/>
+            </Nav.Link>
             </Nav>
     )
 }

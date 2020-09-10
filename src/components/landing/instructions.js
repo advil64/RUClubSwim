@@ -49,8 +49,18 @@ const Instruction = () => {
                         you need to pay dues for the semester. Dues are $30 per semester and can be payed
                         to any exec board member in the form of check, cash, or venmo."
                 title="Dues"
-                subtitle="Step 1"
+                subtitle="Step 1 (N/A FALL 2020)"
                 isLink={false}
+              />
+
+              <CardBody
+                message="Please request membership on our GetInvolved page to stay updated on our events.
+                          You will be added to a mailing list automatically once you become a member. You will also
+                          be able to join our GroupMe once you request membership"
+                title="Rutgers GetInvolved"
+                subtitle="Step 2"
+                link="https://rutgers.campuslabs.com/engage/organization/SwimClub"
+                isLink={true}
               />
 
               <CardBody
@@ -58,27 +68,19 @@ const Instruction = () => {
                         involved in our club. Defensive drivers also need to upload their documentation 
                         onto this website."
                 title="Do Sports Easy"
-                subtitle="Step 2"
+                subtitle="Step 3"
                 link="http://recreation.rutgers.edu/sports/sport-clubs/registration/"
                 isLink={true}
               />
 
               <CardBody
                 title="College Club Swimming"
-                subtitle="Step 3"
+                subtitle="Step 4 (N/A FALL 2020)"
                 message="To participate in swim meets and eventually qualify for nationals, you need to
                         register with College Club Swimming. Returning swimmers need to login and confirm their
                         participation for the coming year."
                 link="https://www.clubassistant.com/club/login_form.cfm?c=2417"
                 isLink={true}
-              />
-
-              <CardBody
-                message="Once you're done with the other steps, please notify an member of the 
-                        exec board and we will add you to the groupme! This is where we send out meet details, fundraising
-                        information, and social dates."
-                title="Our Groupme!"
-                subtitle="Step 4"
               />
             </CardDeck>
           </Jumbotron>

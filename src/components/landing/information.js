@@ -26,7 +26,7 @@ const Info = () => {
           <Row className="pr-0 mr-0">
             <Container className="text-center">
               <h2>Practice Schedule</h2>
-              <p>Times and location subject to change. Email us to stay updated.</p>
+              <strong><p>NO PRACTICES FALL 2020</p></strong>
             </Container>
             <Table responsive>
               <thead>
@@ -37,10 +37,10 @@ const Info = () => {
                 </tr>
               </thead>
               <tbody>
-                <TableVal day="Monday" officer="Someone & Someone" />
+                {/* <TableVal day="Monday" officer="Someone & Someone" />
                 <TableVal day="Tuesday" officer="Someone & Someone" />
                 <TableVal day="Wednesday" officer="Someone & Someone" />
-                <TableVal day="Thursday" officer="Someone & Someone" />
+                <TableVal day="Thursday" officer="Someone & Someone" /> */}
               </tbody>
             </Table>
           </Row>
