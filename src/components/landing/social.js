@@ -30,7 +30,7 @@ const social = () => {
               icon="https://cdn.iconscout.com/icon/free/png-512/instagram-201-599421.png?resize=1240,1240&w=50"
             />
             <SocialIcons
-              link="https://www.facebook.com/groups/392739164956148"
+              link="https://www.facebook.com/groups/341707980312534"
               icon="https://cdn.iconscout.com/icon/free/png-256/facebook-264-734861.png?resize=1240,1240&w=40"
               spaceClass="pl-2"
             />

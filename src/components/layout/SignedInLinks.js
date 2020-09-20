@@ -34,8 +34,8 @@ const SignedInLinks = () => {
             <Nav.Link onClick={() => window.open("https://rutgers.campuslabs.com/engage/organization/SwimClub", "_blank")}>
                 GetInvolved <BoxArrowUpRight/>
             </Nav.Link>
-            <Nav.Link onClick={() => window.open("https://rutgers.campusgroups.com/feeds?type=club&type_id=43784&tab=about", "_blank")}>
-                Involvement Fair <BoxArrowUpRight/>
+            <Nav.Link onClick={() => window.open("https://groupme.com/join_group/62677133/qaDtJKcV", "_blank")}>
+                GroupMe <BoxArrowUpRight/>
             </Nav.Link>
             </Nav>
     )
