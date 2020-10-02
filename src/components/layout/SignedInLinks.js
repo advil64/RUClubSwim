@@ -28,7 +28,7 @@ const SignedInLinks = () => {
                 offset: -70,
                 duration: 500,
             })}>Social Media</Nav.Link>
-            <Nav.Link onClick={() => window.open("http://recreation.rutgers.edu", "_blank")}>
+            <Nav.Link onClick={() => window.open("https://services.rec.rutgers.edu/Program/GetProgramDetails?courseId=0c0f9f29-eabf-4316-93a1-d0693b61e08f&semesterId=616eb7c4-8995-41b9-979a-ba0c952afbf2", "_blank")}>
                 Rutgers Rec <BoxArrowUpRight/>
             </Nav.Link>
             <Nav.Link onClick={() => window.open("https://rutgers.campuslabs.com/engage/organization/SwimClub", "_blank")}>
