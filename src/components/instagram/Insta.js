@@ -46,7 +46,7 @@ export default class Instagram extends React.Component {
             <Card.Img
               className="pt-2 pb-2"
               key={post.id}
-              src={post.url}
+              src={post.display_url}
               alt={post.caption}
             />
           ))}

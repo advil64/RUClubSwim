@@ -49,7 +49,7 @@ const Instruction = () => {
                         you need to pay dues for the semester. Dues are $30 per semester and can be payed
                         to any exec board member in the form of check, cash, or venmo."
                 title="Dues"
-                subtitle="Step 1 (N/A FALL 2020)"
+                subtitle="Step 1"
                 isLink={false}
               />
 
@@ -75,7 +75,7 @@ const Instruction = () => {
 
               <CardBody
                 title="College Club Swimming"
-                subtitle="Step 4 (N/A FALL 2020)"
+                subtitle="Step 4"
                 message="To participate in swim meets and eventually qualify for nationals, you need to
                         register with College Club Swimming. Returning swimmers need to login and confirm their
                         participation for the coming year."

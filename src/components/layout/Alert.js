@@ -13,7 +13,7 @@ function AlertDismissibleExample() {
         <Modal.Header closeButton>
           <Modal.Title>Covid-19 Update</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Due to Covid-19 Rutgers University has ordered all sports clubs to suspend all in person activities/practices for Fall 2020. Please email <strong>ruclubswim@gmail.com</strong> for more info about our virtual programming.</Modal.Body>
+        <Modal.Body>Due to Covid-19 practice times can be changed at any time. Please email <strong>ruclubswim@gmail.com</strong> to stay up to date on our practices/events.</Modal.Body>
       </Modal>
     </>
   );
