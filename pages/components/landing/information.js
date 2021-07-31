@@ -26,7 +26,7 @@ const Info = () => {
           <Row className="pr-0 mr-0">
             <Container className="text-center">
               <h2>Practice Schedule</h2>
-              <strong><p>NO PRACTICES FALL 2020</p></strong>
+              <strong><p>PRACTICES WILL BE ADDED SOON FALL 2021</p></strong>
             </Container>
             <Table responsive>
               <thead>

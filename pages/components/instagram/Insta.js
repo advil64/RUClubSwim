@@ -60,7 +60,7 @@ export default class Instagram extends React.Component {
               <img
                 className="cropped1"
                 key={post.id}
-                src={post.url}
+                src={post.display_url}
                 alt={post.caption}
               />
             </Carousel.Item>
