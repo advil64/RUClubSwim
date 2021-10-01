@@ -38,9 +38,9 @@ const Info = () => {
               </thead>
               <tbody>
                 <TableVal day="Monday" officer="Katie & Rob" />
-                <TableVal day="Tuesday" officer="Lilith & Ben" />
+                <TableVal day="Tuesday" officer="Lilith & Sam" />
                 <TableVal day="Wednesday" officer="Ben & Mark" />
-                <TableVal day="Thursday" officer="Advith & Katie" />
+                <TableVal day="Thursday" officer="Advith & Alyssa" />
               </tbody>
             </Table>
           </Row>
